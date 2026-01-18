@@ -14,5 +14,7 @@ int main() {
 
     std::cout << "Hello and welcome to " << lang2 << "!\n";
 
+    std::cout << "Hello and welcome to " << lang2 << "!\n";
+
     return 0;
 }
