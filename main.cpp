@@ -12,5 +12,7 @@ int main() {
         std::cout << "i = " << i << std::endl;
     }
 
+    std::cout << "Hello and welcome to " << lang2 << "!\n";
+
     return 0;
 }
