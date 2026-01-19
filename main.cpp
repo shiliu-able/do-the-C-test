@@ -1,18 +1,27 @@
 #include <iostream>
+#include "Second.h"
+
+using namespace std;
 
 int main() {
-    auto lang2 = "C++";
-    std::cout << "Hello and welcome to " << lang2 << "!\n";
 
-    for (int i = 1; i <= 5; i++) {
-        std::cout << "i = " << i << std::endl;
-    }
+    Second second;
 
-    for (int i = 0; i < 10; ++i) {
-        std::cout << "i = " << i << std::endl;
-    }
+    second.showNameAndAddress("six", "here");
 
-    std::cout << "Hello and welcome to " << lang2 << "!\n";
+    second.showLonglength(20);
+
+    second.oneHalf();
+
+    second.twoHalf();
+
+    second.showAgeMonths(22);
+
+    second.showCelsius(20);
+
+    second.showLightYear(4.2);
+
+    second.showTime(9,28);
 
     return 0;
 }

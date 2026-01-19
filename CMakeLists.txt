@@ -3,4 +3,6 @@ project(do_the_C_test)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(do_the_C_test main.cpp)
+add_executable(do_the_C_test main.cpp
+        Second.cpp
+        Second.h)
